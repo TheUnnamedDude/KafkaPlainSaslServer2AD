@@ -21,7 +21,7 @@ plugins{
 apply plugin: 'maven-publish'
 
 group 'no.nav.common.security'
-version '0.84'
+version '0.85-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
