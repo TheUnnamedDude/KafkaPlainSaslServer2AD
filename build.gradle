@@ -87,7 +87,7 @@ publishing {
                 username nexusUser
                 password nexusPassword
             }
-            url nexusURL
+            url project.version.endsWith('-SNAPSHOT') ? nexusSnapshotUrl : nexusReleaseUrl
         }
     }
 }
